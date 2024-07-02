@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/montenegro_1385-741.jpg?t=st=1719819473~exp=1719823073~hmac=aa002b708d85d0042b3d09de743c58a2cb86bb129eb77b31205686d9d5431cee&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.weather-app {
+    text-align: center;
+    background-image: linear-gradient(rgb(243, 163, 4),rgb(248, 222, 169));
+    padding: 20px;
+    border:1px solid rgba(10,10,10,0.2);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(252, 252, 132, 0.1);
+    height: 310px;
+    position: relative;
+    margin-left:-63%;
+   
+}
+
+.weather-app h1{
+    color: rgb(30, 43, 43);
+    border: #050606;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input, button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background-color: #02464a;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0277bd;
+}
+
+.hidden {
+    display: none;
+}
+
+.weather-app p:hover{
+    zoom:1.01;
+}

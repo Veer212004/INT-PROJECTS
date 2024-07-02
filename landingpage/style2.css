@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.navbar{
+    position:fixed;
+    width:100vw;
+}
+.nav-menu  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    padding: 30px;
+    margin-top: 0%;
+    background-image: linear-gradient(white,rgb(252, 81, 110));
+    width: 200px;
+    height: 100vh;
+    border-right:3px dashed black;
+   
+    
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: bisque;
+    border: 3px solid black;
+    margin-left:-14%;
+    position: relative;
+    padding: 10px;
+    background-color: rgb(240, 113, 9);
+    background-image: linear-gradient(rgb(240, 237, 14), rgb(4, 4, 0),rgb(14, 191, 67));
+    box-shadow: 0 0 0 1px white;
+    width:200px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    border-radius:10px ;
+    
+}
+
+.nav-menu a:hover{
+    box-shadow: 2px 0 0 5px rgb(1, 1, 21);
+}
+
+.change-menu{
+    height: 100vh;
+   
+}
+ 
+.change-menu .section{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 100px;
+    height: 100vh;
+    padding-top:30%;
+
+}
+#home{
+    background-image: linear-gradient(blue, rgb(245, 245, 28)); 
+   
+    
+}#about{
+    background-image: linear-gradient(rgb(224, 30, 192), rgb(12, 159, 212));
+     
+}#service{
+    background-image: linear-gradient(rgb(208, 245, 21), rgb(238, 18, 18));
+   
+   
+}#contact{
+    background-image: linear-gradient(rgb(122, 122, 231), rgb(248, 73, 146));
+   
+   
+}#info{
+    background-image: linear-gradient(rgb(19, 229, 16), rgb(246, 164, 164)); 
+    
+   
+  
+}

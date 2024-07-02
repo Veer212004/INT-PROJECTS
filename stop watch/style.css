@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-image:url(https://res-console.cloudinary.com/ddsuwbdq8/thumbnails/v1/image/upload/v1719816573/aW1hZ2UtNC0xLXJlZC1hbGFybS1jbG9ja3MtaXNvbGF0ZWQtb3JhbmdlLXdhbGxfMTk3NTMxLTEyNTQxX2JteHU4cg==/preview);
+    background-repeat: no-repeat;   
+    background-size: cover;
+ 
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    font-display:initial ;
+    text-shadow:2px 3px white;
+    font-size: 50px;
+    border-bottom:2px inset white;
+    margin-top: 0;
+}
+.stopwatch {
+    position: relative;
+    margin-left:-60%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0  20px 10px 20px rgba(12, 0, 0, 0.1);
+    height: 50%;
+    width:20%;
+    align-items: center;
+    border-radius: 10%;
+    background-image: linear-gradient(rgb(249, 185, 59),rgb(250, 160, 225));
+    
+}
+.stopwatch:hover{
+    transition:all ease-out 0.9s;
+}
+#display {
+    font-size: 48px;
+    margin-bottom: 100px;
+    margin-top:30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+button {
+    
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:  0.3s;
+ 
+}
+
+
+#startStopBtn {
+    background-color: #4CAF50;
+    color: white;
+    margin-top:10%;
+    margin-right:10px;
+    font-weight: 800;
+}
+
+#resetBtn {
+    background-color: #f44336;
+    color: rgb(7, 7, 7);
+    font-weight: 800;
+}
+ 
+#resetBtn:hover{
+    box-shadow: 0 0 0 5px rgb(9, 9, 9);
+   
+}
+
+button:hover {
+    border-radius: 20px 20px;
+    box-shadow: 0 0 0 5px white;
+    zoom:1.092;
+}
